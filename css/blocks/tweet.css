@@ -5,6 +5,7 @@
   padding: 10px 15px;
 }
 .tweet__content-icons{
+  position:fixed;
   width:20px;
   height: 20px;
   padding-top: 10px;
