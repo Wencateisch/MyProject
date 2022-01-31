@@ -9,7 +9,7 @@
   height: 20px;
   padding-top: 10px;
   padding-left:5px;
-  padding-inline-end: 100px;
+  padding-inline-end:0 auto;
 }
 .tweet__content-icons:hover{
   filter: invert(37%) sepia(30%) saturate(4956%) hue-rotate(176deg) brightness(95%) contrast(99%);
