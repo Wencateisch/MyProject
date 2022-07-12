@@ -1,4 +1,6 @@
 .who-to-follow {
+  display: flex;
+  flex-direction: column;
   background: #f5f8fa;
   border-radius: 15px;
   cursor: pointer;
@@ -49,6 +51,10 @@
 }
 
 .who-to-follow__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   background-color: rgb(15, 20, 25);
   font-size: 15px;
   font-weight: 700;
@@ -64,4 +70,13 @@
   background:rgb(15, 20, 25);
   opacity: 0.9;
   cursor: pointer;
+}
+@media screen and (max-width:500px){
+  .who-to-follow {
+    width: 20px;
+  }
+  .who-to-follow__author-name{
+    width: 20px;
+  }
+  
 }

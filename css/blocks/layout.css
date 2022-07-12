@@ -1,14 +1,14 @@
 .layout {
   display: grid;
-  grid-template-columns: 75px auto 450px;
+  grid-template-columns:0.15fr 1.2fr 0.75fr;
   margin: 0 auto;
-  margin-left: 100px;
+  margin-left: 30px;
   max-width: 1200px;
 }
 
 .layout__right-sidebar {
   position: fixed;
-  width: 350px;
+  width: 400px;
 }
 .layout__right-sidebar-search{
   background-color:#f5f8fa;
@@ -17,4 +17,7 @@
   height: 40px;
   width: 350px;
   border-radius: 25px;
+}
+body{
+  display: flex;
 }

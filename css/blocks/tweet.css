@@ -5,10 +5,9 @@
   padding: 10px 15px;
 }
 .tweet__content-icons{
-  width:20px;
+  margin: 0px 40px 0px 0px;
   height: 20px;
-  padding-top: 10px;
-  /*padding-inline-end:;*/
+  
 }
 .tweet__content-icons:hover{
   filter: invert(37%) sepia(30%) saturate(4956%) hue-rotate(176deg) brightness(95%) contrast(99%);
@@ -35,10 +34,16 @@
 }
 
 .tweet__header {
+  margin: 0;
   display: flex;
+  /* background-color: red; */
+  /* flex-direction: row; */
 }
 
 .tweet__author-name {
+  /* display: flex; */
+  width: max-content;
+  /* flex-direction: column; */
   font-size: 15px;
   font-weight: 700;
   color: #14171a;
@@ -46,6 +51,8 @@
 }
 
 .tweet__author-slug {
+  display: flex;
+  flex-direction: column;
   color: #5b7083;
   font-size: 15px;
 }
